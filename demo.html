@@ -2,7 +2,8 @@
 <html>
  <head>
     <meta charset="utf-8">
-  <title>To night</title>
+	 <link rel="icon" href="favicon.ICO" type="image/x-icon">
+  <title>demo</title>
   <style>
   body {
 	margin:0;
@@ -10,25 +11,32 @@
 	font-size: 15px;
 	line-height: 1.6;
 	color: #333;
+	
   }  
   *,
   *:before,
   *:after {
 		box-sizing: border-box;
   }
+  
   /* Container */
+  
   .container {
 		width: 100%;
 		max-width: 1200px;
 		margin: 0 auto;
   }
+  
   /*Intro*/
+  
   .intro {
   width: 100%;
   height: 100vh;
   background: orange;
   }
+  
   /*Header*/
+  
   .header {
 	width: 100%;
 	position: fixed;
@@ -46,7 +54,9 @@
 		left:0px;
 		top:0px;
 		}		
-		/* NAv */		
+		
+		/* NAv */	
+		
 	.nav {
 		font-size: 25px;
 		text-transform: uppercase;
@@ -60,19 +70,20 @@
 		margin: 5px
 		}		
 		.nav__link:hover {
-			color: #000;
+			color: #001;
+			size:5px;
 		}				
 					.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px; 
 		}
 
 	.sidenav a {
@@ -87,6 +98,7 @@
 
 			.sidenav a:hover {
 			color: #f1f1f1;
+			
 					}
 
 		.sidenav .closebtn {
@@ -106,12 +118,13 @@
 				width:50px;
 				height:50px;
 				position:absolute;
-		}
+				color:#111;
+			}
 		
-  </style>
-</head>
-<body>
-<header class = "header">					
+ 				 </style>
+			</head>
+		<body>
+	<header class = "header">					
 							<div class="header__logo">KS	
 									<nav class="nav">
 									<a class="nav__link" href="#">About</a>
@@ -124,15 +137,15 @@
 						</header>
 				<div class = "intro">
 								<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="tryit.asp@filename=tryhow_js_sidenav#">О Нас</a>
-		<a href="tryit.asp@filename=tryhow_js_sidenav#">Услуги</a>
-		<a href="tryit.asp@filename=tryhow_js_sidenav#">Клиенты</a>
-		<a href="tryit.asp@filename=tryhow_js_sidenav#">Контакт</a>
-		</div>
-				<div id = "menu"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="tryit.asp@filename=tryhow_js_sidenav#">О Нас</a>
+			<a href="tryit.asp@filename=tryhow_js_sidenav#">Услуги</a>
+			<a href="tryit.asp@filename=tryhow_js_sidenav#">Клиенты</a>
+			<a href="tryit.asp@filename=tryhow_js_sidenav#">Контакт</a>
+			</div>
+				<div id = "menu"><span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span></div>
 				</div>
 
-  <script src="animjs.js"></script>
-</body>
-</html>
+ 		 <script src="animjs.js"></script>
+	</body>
+	</html>
