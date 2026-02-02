@@ -9,14 +9,10 @@ Vite (современный сборщик проектов)
 Git (система контроля версий)
 npm (менеджер пакетов)
 Visual Studio Code (основная среда разработки)
-Текущий проект
-Digital Solutions Landing Page
-Веб-приложение для digital-агентства, разработанное с использованием Vue 3 и TypeScript.
+Текущий проект, мой личный сайт визитка написанные на React, JavaScript, Css, Html, tailwind
 
 Ключевые особенности:
 
-Компонентная архитектура
-типизация с TypeScript
 Адаптивный дизайн с Tailwind CSS
 Современная сборка через Vite
 Ссылка на репозиторий: https://github.com/A-hil/landing-page
